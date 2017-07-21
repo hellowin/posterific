@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { AppRegistry, Navigator } from 'react-native';
+import { AppRegistry } from 'react-native';
+import { Navigator } from 'react-native-deprecated-custom-components';
 
 import HomeScreen from './components/HomeScreen';
 import PosterConfigScreen from './components/PosterConfigScreen';

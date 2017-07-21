@@ -7,16 +7,17 @@
     "test": "jest"
   },
   "dependencies": {
-    "native-base": "2.0.12",
-    "react": "15.4.2",
-    "react-native": "0.40.0",
+    "native-base": "2.3.0",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.46.4",
+    "react-native-deprecated-custom-components": "^0.1.1",
     "react-native-fbsdk": "^0.6.1",
-    "react-native-image-crop-picker": "^0.12.9",
-    "react-native-modal": "^2.0.2",
+    "react-native-image-crop-picker": "^0.14.1",
+    "react-native-modal": "^2.4.0",
     "react-native-photo-grid": "0.0.2",
-    "react-native-storage": "^0.1.5",
-    "react-native-view-shot": "^1.9.1",
-    "react-navigation": "^1.0.0-beta.5"
+    "react-native-storage": "^0.2.2",
+    "react-native-view-shot": "^1.10.1",
+    "react-navigation": "^1.0.0-beta.11"
   },
   "devDependencies": {
     "babel-preset-react-native": "2.1.0"
