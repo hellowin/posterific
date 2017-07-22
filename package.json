@@ -11,6 +11,7 @@
     "react": "16.0.0-alpha.12",
     "react-native": "0.46.4",
     "react-native-deprecated-custom-components": "^0.1.1",
+    "react-native-facebook-account-kit": "^0.6.2",
     "react-native-fbsdk": "^0.6.1",
     "react-native-image-crop-picker": "^0.14.1",
     "react-native-modal": "^2.4.0",
