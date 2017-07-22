@@ -12,6 +12,15 @@ buildscript {
     }
 }
 
+project(':react-native-fbsdk') {
+    configurations.all {
+        resolutionStrategy {
+            force 'com.facebook.android:facebook-android-sdk:4.22.1'
+            force 'com.facebook.android:account-kit-sdk:4.23.0'
+        }
+    }
+}
+
 allprojects {
     repositories {
         mavenLocal()
@@ -22,6 +31,8 @@ allprojects {
         }
         configurations.all {
             resolutionStrategy {
+                force 'com.facebook.android:facebook-android-sdk:4.22.1'
+                force 'com.facebook.android:account-kit-sdk:4.23.0'
                 eachDependency { DependencyResolveDetails details ->
                     if (details.requested.group == 'com.facebook.react' && details.requested.name == 'react-native') {
                         def file = new File("$rootDir/../node_modules/react-native/package.json")
